@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 BANNER="
-  #     #                       #####               #######                     
+  #     #                       #####               #######
   #     #   ##    ####  #    # #     # #   #  ####     #    ######   ##   #    #
   #     #  #  #  #    # #   #  #        # #  #         #    #       #  #  ##  ##
   ####### #    # #      ####    #####    #    ####     #    #####  #    # # ## #
@@ -18,7 +18,7 @@ echo "${BANNER}"
 BUILD_ARCH=x64
 CURRENT_DIR=$PWD
 PROJECT_NAME=hevd
-PROJECT_DIR="$(realpath -m ${CURRENT_DIR}/../Driver)"
+PROJECT_DIR="$(realpath -m ${CURRENT_DIR}/../driver)"
 BUILD_DIR="$(realpath -m ${PROJECT_DIR}/../_build)"
 BINARY_DIR="$(realpath -m ${PROJECT_DIR}/../build/driver/linux/vulnerable/${BUILD_ARCH})"
 

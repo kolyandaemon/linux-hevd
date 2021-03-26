@@ -1,6 +1,7 @@
-﻿
-cmake_minimum_required (VERSION 3.8)
-
+#
+# HEVD CMake Script
+#
+cmake_minimum_required(VERSION 3.8)
 
 project("HEVD" C)
 
@@ -27,10 +28,7 @@ else()
     return()
 endif()
 
-if(HOST_OS_WINDOWS)
-    message("Locating Windows Driver Kit")
-    include(WDK)
-elseif(HOST_OS_LINUX)
+if(HOST_OS_LINUX)
     message("Locating Linux Kernel Module Builder")
     include(LKM)
 endif()
