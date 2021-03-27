@@ -9,6 +9,3 @@ endif()
 
 string(REGEX MATCH "Linux" HOST_OS_LINUX ${CMAKE_SYSTEM_NAME})
 
-if(WIN32)
-    set(HOST_OS_WINDOWS TRUE BOOL)
-endif()
