@@ -23,9 +23,9 @@
 
 
 #define HEVD_IOCTL_BUFFER_OVERFLOW_STACK                IOCTL(0)
-#define HEVD_IOCTL_ARBITRARY_WRITE                      IOCTL(2)
-#define HEVD_IOCTL_INTEGER_OVERFLOW                     IOCTL(9)
-#define HEVD_IOCTL_UNINITIALIZED_MEMORY_STACK           IOCTL(0xB)
+#define HEVD_IOCTL_ARBITRARY_WRITE                      IOCTL(1)
+#define HEVD_IOCTL_INTEGER_OVERFLOW                     IOCTL(2)
+#define HEVD_IOCTL_UNINITIALIZED_MEMORY_STACK           IOCTL(3)
 
 static int __init hevd_init(void);
 static void __exit hevd_exit(void);

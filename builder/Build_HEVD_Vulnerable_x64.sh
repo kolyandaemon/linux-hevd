@@ -9,7 +9,7 @@ CURRENT_DIR=$PWD
 PROJECT_NAME=hevd
 PROJECT_DIR="$(realpath -m ${CURRENT_DIR}/../sources)"
 BUILD_DIR="$(realpath -m ${PROJECT_DIR}/../_output)"
-BINARY_DIR="$(realpath -m ${PROJECT_DIR}/../output/linux/vulnerable/${BUILD_ARCH})"
+BINARY_DIR="$(realpath -m ${PROJECT_DIR}/../output/vulnerable/${BUILD_ARCH})"
 
 echo "[+] Build target architecture: ${BUILD_ARCH}"
 echo "[+] Host Architecture: $(uname -m)"

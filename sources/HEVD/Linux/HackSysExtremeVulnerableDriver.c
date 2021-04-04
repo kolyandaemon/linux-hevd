@@ -10,7 +10,7 @@ struct file_operations hevd_fops = {
 
 static struct miscdevice hevd_device = {
     .minor = MISC_DYNAMIC_MINOR,
-    .name = "HackSysExtremeVulnerableDriver",
+    .name = "hevd",
     .fops = &hevd_fops
 };
 
@@ -84,5 +84,5 @@ module_exit(hevd_exit);
 
 MODULE_VERSION("4.0");
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Ashfaq Ansari (@HackSysTeam)");
-MODULE_DESCRIPTION("HackSys Extreme Vulnerable Driver");
+MODULE_AUTHOR("Karapetyants Nikolay (@kolyandaemon) and Ashfaq Ansari (@HackSysTeam)");
+MODULE_DESCRIPTION("hevd");
