@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: ioctl
+Version: 0.2.1
+Summary: UNKNOWN
+Home-page: https://github.com/FFY00/python-ioctl
+Author: Filipe Laíns
+Author-email: lains@archlinux.org
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: System :: Operating System Kernels :: Linux
+Requires-Python: <4,>=3.6
+Description-Content-Type: text/markdown
+
+# python-ioctl ![checks](https://github.com/FFY00/python-ioctl/workflows/checks/badge.svg)
+
+Pure python typed Linux ioctl & ioctl interfaces implementation
+
+
+### Suported interfaces
+
+- hidraw
+
+
+### Development
+
+We use [mypy](http://mypy-lang.org/) to run static checks in scripts, and
+[pre-commit](https://pre-commit.com/) to run misc checks. Install the pre-commit
+hook with `pre-commit install`.
+
+
