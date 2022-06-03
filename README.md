@@ -16,4 +16,5 @@
 
 ## Авторы и участники проекта
 
-Nikolay Karapetyants, nskarapetyants@gmail.com 
+Nikolay Karapetyants, nskarapetyants@gmail.com
+Dmitriy Efanov, @efanov
